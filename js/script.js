@@ -7,12 +7,12 @@ i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz."*/
 
 for (let i = 1; i <= 100; i++) {
 
-    if (i % 3 == 0) {
-        console.log(`${i} Fizz`);
-    }
-    if (i % 5 == 0) {
+    let number = "";
+    
+    if (i % 3 == 0) number += (`${i} Fizz`);
+    console.log (number || `${i}`);
+
+    if (i % 5 == 0) 
         console.log(`${i} Buzz`);
-    }
+
 }
-
-
