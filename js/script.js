@@ -9,10 +9,10 @@ for (let i = 1; i <= 100; i++) {
 
     let number = "";
     
-    if (i % 3 == 0) number += (`${i} Fizz`);
-    console.log (number || `${i}`);
+    if (i % 3 == 0) number = ('Fizz');
 
-    if (i % 5 == 0) 
-        console.log(`${i} Buzz`);
+    if (i % 5 == 0) number = ('Buzz');
 
+    if (i % 3 == 0 && i % 5 == 0)  number = ('FizzBuzz');
+    console.log(number || `${i}`);
 }
