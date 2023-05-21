@@ -11,7 +11,9 @@ i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz."
 4 - inserire un istruzione condizionale IF nel ciclo for<br>
 5 - utilizzare l'operatore modulo % con il 3 == per calcolare i multipli di 3<br>
 6 - stampa per i multipli di 3 "fizz" al posto del numero<br>
-7 - stampa per i multipli di 5 "buzz" al posto del numero<br>
-8 - stampa "fizzbuzz" al posto del numero che è sia multiplo<br>
+7 - inserire un istruzione condizionale IF nel ciclo for<br>
+8 - utilizzare l'operatore modulo % con il 5 == per calcolare i multipli di 5<br>
+9 - stampa per i multipli di 5 "buzz" al posto del numero<br>
+10 - stampa "fizzbuzz" al posto del numero che è sia multiplo<br>
     di 3 che multiplo di 5  
 
